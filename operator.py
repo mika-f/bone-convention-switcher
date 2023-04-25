@@ -1,7 +1,8 @@
-# ----------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------
 #  Copyright (c) Natsuneko. All rights reserved.
-#  Licensed under the GPLv3 License. Please read the https://docs.natsuneko.moe/en-US/limited-license
-# ----------------------------------------------------------------------------------------------------
+#  Licensed under the MIT License. See LICENSE in the project root for license information.
+# ------------------------------------------------------------------------------------------
+
 import typing
 
 import re
@@ -39,7 +40,7 @@ bone_convention: dict[str, str] = {
   "Foot.R": "右つま先",
   "Toes.R": "右足先EX",
   "LegIKP_R": "右足IK親",
-  "LegIK_R ": "右足ＩＫ",
+  "LegIK_R": "右足ＩＫ",
   "ToeIK_R": "右つま先ＩＫ",
   "Thumb Proximal.L": "左親指０",
   "Thumb Intermediate.L": "左親指１",
